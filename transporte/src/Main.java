@@ -14,7 +14,7 @@ public class Main {
         double valorTransporte = sc.nextDouble();
         Transporte transporte = new Transporte(tipoTransporte, valorTransporte);
 
-        sc.nextLine(); // limpa buffer
+        sc.nextLine(); 
 
         // ==== HOSPEDAGEM ====
         System.out.print("Digite a descrição da hospedagem: ");
@@ -26,7 +26,7 @@ public class Main {
         Hospedagem hospedagem = new Hospedagem(descricaoHosp, valorDiaria);
 
         // ==== PACOTE ====
-        sc.nextLine(); // limpa buffer
+        sc.nextLine(); 
         System.out.print("Digite o destino da viagem: ");
         String destino = sc.nextLine();
 
@@ -42,7 +42,7 @@ public class Main {
         System.out.print("Digite o valor das taxas adicionais (USD): ");
         double taxas = sc.nextDouble();
 
-        sc.nextLine(); // limpa buffer
+        sc.nextLine(); 
 
         // ==== VENDA ====
         System.out.print("Digite o nome do cliente: ");
